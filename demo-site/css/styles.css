@@ -1,0 +1,119 @@
+/* This is a CSS comment*/
+
+/* Variables should be grouped together at the top of the page */
+/* Read more about variables here: https://www.w3schools.com/css/css3_variables.asp */
+
+:root {
+  --background-light: rgb(226, 209, 189);
+  --background-dark: rgb(70, 18, 70);
+  --text:rgb(31, 29, 29);
+  --accent: rgb(85, 35, 85);
+  --text-light: rgb(252, 233, 213);  
+}
+
+
+/* division styling */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--background-dark);
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-size: 16px;
+}
+nav{
+    text-align: center;
+    line-height: 3;
+    padding: 10px;
+}
+.style{
+    width:30%;
+    display: block;
+    float: right;
+    margin-left: 15px;
+}
+
+.container{
+    max-width: 1080px;
+    width: 90%;
+    margin: 10px auto;
+    overflow: auto;
+    background: var(--background-light);
+}
+#front-main{
+    float: left;
+    width: 70%;
+    margin: 10px 15px 10px 5px;;
+}
+#front-aside{
+    clear: both;
+    float: right;
+    width: 22%;
+    margin: 10px 5px;
+    padding: 10px;
+}
+
+main{
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+}
+/* button styling */
+
+nav a{
+    background: var(--background-dark);
+    border: 2px solid var(--background-dark);
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    color: var(--text-light);
+}
+
+nav a:hover, #current{
+    background: var(--background-light);
+    color: var(--accent);
+}
+
+/* text styling */
+
+h1{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    color:var(--accent);
+}
+
+h2{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    color:var(--accent);
+}
+
+h3{
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: bold;
+    color:var(--accent);
+}
+
+dt{
+    font-weight: bold;
+    color: var(--accent);
+}
+
+
+/* images */
+img{
+    /* this code centers the image */
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+}
