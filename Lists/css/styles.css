@@ -1,0 +1,18 @@
+body{
+    background: rgb(58, 4, 10);
+    color: ivory ;
+}
+
+h1{
+    color:darkgreen;
+    text-align: center;
+}
+
+ul{
+    list-style-type: "\2605";
+
+}
+
+ul ul {
+    list-style-type: "\26F5";
+}
