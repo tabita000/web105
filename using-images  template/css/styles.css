@@ -1,0 +1,94 @@
+/* Global styling for the body element */
+body {
+  background-image: url("../images/aurora-borealis.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:ivory;
+}
+    /* Add styles here to affect the entire page */
+
+/* Styling for the div and header elements, affecting the width, margin, border, and background color */
+div,
+header {
+    width: 80%;
+    /* Sets the width to 80% of the parent container */
+    margin: 20px auto;
+    /* Centers the element horizontally and adds 20px margin to the top and bottom */
+    border: 3px solid gold;
+    /* Sets a 3px solid gold border */
+    background: rgba(0, 0, 0, .7);
+    color: ivory;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    line-height: 2;
+    overflow: auto;
+    padding: 15px;
+    /* Sets a semi-transparent black background */
+}
+
+/* Specific styling for all div elements, setting a minimum height */
+div {
+    min-height: 250px;
+    /* Ensures the div is at least 250px tall */
+}
+
+/* Styling for h1 and h2 headings, controlling the text alignment and color */
+h1,
+h2 {
+    text-align: center;
+    /* Centers the text horizontally */
+    color: gold;
+    /* Sets the text color to gold */
+}
+
+/* Placeholder for the background styling, add your specific styles here */
+#background {
+  min-height: 500px;  
+  background-image: url('../images/tree.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+    /* Add background-specific styles here */
+
+/* Placeholder for the image map styling, add your specific styles here */
+#img-map {
+    display: block;
+    margin: 10px auto;
+    /* Add image map-specific styles here */
+}
+
+/* Placeholder for floating left, add your specific styles here */
+#float-left img{
+    float: left;
+    width: 40%;
+    margin: 10px auto;
+    /* Add floating left-specific styles here */
+}
+
+/* Placeholder for floating right, add your specific styles here */
+#float-right img{
+    float: right;
+    width: 40%;
+    margin: 10px auto;
+    /* Add floating right-specific styles here */
+}
+
+/* Placeholder for picture tag, add your specific styles here */
+#picture-tag {
+    /* Add picture tag-specific styles here */
+}
+
+/* Placeholder for linked image, add your specific styles here */
+#linked-image img{
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+    /* Add linked image-specific styles here */
+}
+
+/* Placeholder for image as a link, add your specific styles here */
+#img-as-link {
+    /* Add image as link-specific styles here */
+}
