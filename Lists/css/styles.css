@@ -1,6 +1,9 @@
 body{
     background: rgb(58, 4, 10);
     color: ivory ;
+    font-size: large;
+    line-height: 1.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1{
@@ -11,8 +14,36 @@ h1{
 ul{
     list-style-type: "\2605";
 
+
+    /*Unicode for star*/
+
 }
 
 ul ul {
     list-style-type: "\26F5";
+    /*Unicode for boat*/
+}
+
+
+
+
+ol {
+    list-style-type: "\1F98A";
+    /*Unicode for chart*/
+}
+
+ol ol{
+    list-style-type: "\1F98A";
+    color: rgb(199, 188, 205);
+}
+
+dt {
+    
+    color: rgb(199, 188, 205);
+    font-weight: bold;
+}
+
+dd{
+    color: rgb(199, 188, 205);
+    margin-left: 40px;
 }
