@@ -1,0 +1,40 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        h1 {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #007BFF;
+        }
+
+        h3 {
+            color: #007BFF;
+        }
+
+        p {
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        /* Style links */
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        /* Style links on hover */
+        a:hover {
+            text-decoration: underline;
+        }
+    
