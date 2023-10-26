@@ -1,0 +1,52 @@
+body{
+background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(66, 37, 103, 1) 0%, rgb(34, 215, 37) 100%);
+}
+#columns{
+    -moz-column-count: 3;
+    -moz-column-gap: 5px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 5px;
+    column-count: 3;
+    column-gap: 5px;
+}
+
+h2{
+    text-align: center;
+    color: #da5151;
+    font-family: arial;
+    font-size: 2em;
+    text-shadow: 1px 1px 1px rgba(2, 0, 36, 1);
+}
+
+.card{
+    -webkit-box-shadow: 10px 5px 4px 4px #c21356;
+    box-shadow: 10px 5px 4px 4px #8d0e36;
+    background: rgb(100, 232, 228);
+    padding: 10px;
+    min-height: 500px;
+    width: 29%;
+    margin: 20px 1%;
+    float: left;
+    font-family: arial;
+    line-height: 1.5;
+}
+
+.card img{
+    display:block;
+    width: 95%;
+    margin: 10px auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card figure{
+    width: 95%;
+    padding: 2%;
+    margin: 2px auto;
+    vertical-align: top;
+    box-shadow: 1px 1px 1px 2px rgba(2, 0, 36, 1);
+}
+
+
