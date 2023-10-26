@@ -1,0 +1,106 @@
+/*   Things that will be variables   */
+
+/* Colors */
+ :root{
+--muted: #F0F1F2;
+--light: #BFB8AE;
+--brown: #8C7F77;
+--dark: #594C47;
+--darkest: #262221;
+--background: rgb(32, 28, 28);
+
+--type: 'Josefin Sans', sans-serif;
+--heading: 'Young Serif', serif;
+
+}
+
+
+/* fonts  
+font-family: 'Josefin Sans',
+sans-serif;
+font-family: 'Young Serif',
+serif;
+*/
+
+/* *{
+    overflow: auto;
+}*/
+
+
+body{
+    background: var(--background);
+    color:var(--light);
+    font-size:x-large;
+    font-family: var(--type);
+    box-sizing: border-box;
+}
+
+h1, h2, h3{
+    color:var(--light);
+    font-family: var((--heading));
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    background: var(--brown);
+    padding: 10px 15px;
+    margin: 20px;
+    text-decoration: none;
+    color: var(--darkest);
+    border: var(--dark);
+    border-radius: 20px;
+}
+
+nav a:hover{
+    color: var(--brown);
+    background:var(--light);
+}
+
+main{
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+
+header, footer{
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+
+img{
+    padding: 10px;
+    width: 50%;
+    
+}
+
+/*#birman{
+    margin: 10px auto;
+    width: 30%;
+    
+    
+}
+
+#maine{
+    margin: 10px auto;
+    width: 30%;
+    
+    
+}
+
+/*#birman:hover{
+    width: 60%;
+    float: right;
+    margin: 10px;
+}*/
+
+
+
+
