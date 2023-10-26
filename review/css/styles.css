@@ -1,0 +1,45 @@
+/* Set colors for the page */
+body {
+  background-color: rgb(219, 105, 105);
+  color: black;
+  /* this is the font color*/
+}
+
+/* create styles for the h1 tag */
+
+/*Sample - pick your own colors and settings. Make sure to include the ; at the end of the line*/
+
+h1 {
+  color: teal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* create styles for the h2 tag */
+h2 {
+  color: rgb(94, 55, 55);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* create styles for the h3 tag */
+h3 {
+  color: rgb(94, 55, 55);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:medium;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* create styles for the p tag */
+
+img {
+  width: 30%;
+  display: block;
+  margin: 10px auto;
+  /* this set of 3 commands centers. 10px is spacing top and bottom, auto is left and right*/
+}
