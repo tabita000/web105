@@ -1,0 +1,25 @@
+body{
+    background-color: antiquewhite;
+    font-family: sans-serif;
+}
+
+iframe{
+    width: 90%;
+    height: 500px;
+    border: none;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+    margin-top: 50px;
+}
+
+h2{
+   text-align: center;
+    font-size: 50px;
+    color: brown;
+    margin-top: 50px; 
+}
