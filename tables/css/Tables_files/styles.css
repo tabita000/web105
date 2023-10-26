@@ -1,0 +1,56 @@
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    font-weight:bold;
+}
+nav{
+    text-align:center;
+}
+
+nav a{
+    font-weight:bold;
+    text-decoration:none;
+    color:darkolivegreen;
+    margin:5px 15px;
+}
+#creating, #styling, #calendar{
+    width: 90%;
+    margin: 20px auto;
+    border:3px solid rgb(106, 67, 19);
+}
+
+#creating td, #styling td, #styling th, #calendar td, #calendar th{
+    border: 1px solid darkolivegreen;
+    height:20px;
+}
+
+#styling, #calendar{
+    border-collapse: collapse;
+}
+
+#styling th{
+    color:darkolivegreen;
+}
+
+#styling td{
+    text-align:center;
+}
+
+#calendar td, #calendar th{
+    width: 140px;
+    height:140px;
+}
+
+#calendar th{
+    background: darkolivegreen;
+    color: ivory;
+    border: 1px solid ivory;
+}
+
+#calendar td{
+    text-align: right;
+    vertical-align: top;
+}
