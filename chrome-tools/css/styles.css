@@ -1,0 +1,47 @@
+body{
+    background: #b7f2b3;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8787eb
+}
+
+h1{
+    font-family: cursive;
+    color: #de8485
+    text-align-center;
+}
+
+img{
+    display:block;
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    border: 6px solid #c71c1e;
+    border-radius: 100%
+}
+
+figure{
+    border:2px solid #de8485;
+    width: 350px;
+    height: 350px;
+    padding: 2px;
+    border-radius: 100%;
+    background: #9f4646;
+    margin: auto;
+}
+
+ol li{
+    color: #dc0c51;
+}
+
+ul{
+    list-style-type:disc;
+}
+
+dt{
+    color: yellow
+    font-weight:bold;
+}
+
+dd{
+    color:brown
+}
