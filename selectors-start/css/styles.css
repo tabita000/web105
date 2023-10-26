@@ -1,0 +1,55 @@
+body{
+    background-color: ivory;
+    font-family: arial, helvetica, sans-serif;
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+div, header, footer, nav, main, aside{
+    overflow: auto;
+    border: 1px solid gold;
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid rebeccapurple;
+}
+
+.container .container{
+    border: 4px solid burlywood;
+    border-radius: 20px;
+}
+
+nav{
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+}
+
+.container p{
+    margin-left: 15px;
+}
+
+#p1{
+    font-weight: bold;
+    color: rgb(40, 9, 113);
+    padding: 30px;
+}
+
+#p2{
+    font-weight: bold;
+    color: rgb(255, 0, 255);
+    padding: 30px;
+}
+
+#p3{
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    padding: 30px;
+}
