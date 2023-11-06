@@ -1,0 +1,97 @@
+/*   Things that will be variables  
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--blue);
+} */
+
+/* colors   */
+:root {
+    --bright: #F230D2;
+    --muted: #A252F2;
+    --dark: #005342;
+    --light: #F2EB80;
+    --intense: #F2913D;
+    --background: rgb(32, 28, 28);
+
+    --type: 'Roboto Flex', sans-serif;
+    --headings: 'Young Serif', serif;
+}
+
+
+
+
+
+
+/* fonts  
+
+*/
+
+body {
+    background: var(--background);
+    color: var(--light);
+    font-size: x-large;
+    font-family: var(--type);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--bright);
+    font-family: var(--headings)
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    background: var(--dark);
+    padding: 10px 15px;
+    margin: 20px;
+    text-decoration: none;
+    color: var(--intense);
+    border: 2px solid var(--dark);
+    border-radius: 20px;
+}
+
+nav a:hover {
+    color: var(--dark);
+    background: var(--intense);
+}
+
+
+img {
+    margin: 10px auto;
+    width: 50%;
+    display: block;
+}
+
+.container {
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid var(--bright);
+}
+
+a {
+    text-decoration: none;
+    color: var(--intense);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--muted);
+}
+
+dt {
+    margin-top: 40px;
+}
+#ducktor{
+    float: right;
+    width: 25%;
+    margin: 20px;
+}
