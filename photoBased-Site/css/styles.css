@@ -1,0 +1,153 @@
+
+:root{
+    --grey: rgb(108, 104, 104);
+    --light: #BFB8AE;
+    --accent-color: #8C7F77;
+    --primary: #f8f6f4;
+    --darkest: #262221;
+    --background: rgb(108, 104, 104);
+    --heading-font: 'Roboto Slab', serif;
+    --text-icons: 'Roboto', sans-serif;
+}
+
+
+body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: var(--primary); 
+            margin: 1in;
+            padding: 0;
+            line-height: 2;
+            font-size: x-large;
+            font-weight: 700;
+            background-image: url('../images/BrickWall.jpeg');
+            /*background-repeat: no-repeat;*/
+        }
+
+
+        div{
+            min-height: 200px;
+        }
+
+       h1, h2, h3 {
+        color: var(--primary);
+        font-weight: bold;
+        text-align: center;
+        font-family: var(--heading-font);
+       }
+       p{
+        color: var(--primary);
+        font-weight: 800;
+        text-align: center;
+        font-size: x-large;
+        font-family: var(--text-icons);
+        
+       }
+
+
+
+       nav{
+       
+        text-align: center;
+        font-size: 1.5em;
+    
+       }
+
+
+
+
+       nav a{
+        text-decoration: none;
+        margin-left: 20px;
+        background-color: #d98139;
+        padding: 5px 15px;
+        color: rgb(8, 7, 5);
+        border-radius: 10px;
+       }
+
+
+       nav a:hover{
+        background-color: #4191bf;
+        color: rgb(8, 7, 5);
+        border-radius: 50px;
+       }
+
+
+       footer{
+        text-align: left;
+        font-size: 1em;
+        color: #53ed4e;
+        font-weight: bold;
+        
+        
+       }
+
+       #img1{
+        min-height: 500px;
+        background-image: url('../images/Maine1.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+       }
+
+       #maine2{
+        min-height: 500px;
+        background-image: url('../images/maine2.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+       }
+
+       #list{
+        text-align: center;
+        list-style-position: inside;
+       }
+
+
+    #maine3{
+        min-height: 500px;
+        background-image: url('../images/maine3.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+    }
+
+       /*#list{
+        text-align: center;
+       }*/
+
+
+    #maine4{
+        min-height: 500px;
+        background-image: url('../images/maine4.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }  
+    
+    #maine5{
+        min-height: 500px;
+        background-image: url('../images/maine5.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+        
+       
+      
+
+        img {
+            display:block;
+            width: 200px;
+            margin: 10px auto; 
+
+        }
+
+        
+            /*background-repeat: no-repeat;*\
+        
+
+
+
+        
