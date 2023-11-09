@@ -55,7 +55,7 @@ p{
 }
 
 .bengal {
-    position: relative;
+    
     display:flex
     gap 30px;
     justify-content: center;
@@ -66,30 +66,29 @@ p{
     text-align: right;
 }
 
-.bengal p {
-    position: absolute;
-    top: 200px; 
-    left: 0; 
-    width: 450px;
-    height: 100px;
-    padding: 70px;
-    
-}
 
 
-.container-bengal{
+.bengal{
    display: flex;
    justify-content: space-between;
    align-items: flex-start;
 }
-
+.bengal > div{
+    width: 30%;
+    margin: 1.25%;
+}
 .bengal img{
-    width: 400px;
-    height: 400px;
+    width: 90%;
+   
     border: 10px solid cornsilk;
-    margin: 40px;
+    margin: 2.5%;
 }
 
+.bengal >div p{
+    width: 90%;
+    text-align: left;
+    padding: 4%;
+}
 main {
     display: flex;
     flex-wrap: wrap;
@@ -218,3 +217,4 @@ footer {
     height: auto;
   }
 }
+
