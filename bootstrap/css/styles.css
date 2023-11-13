@@ -1,0 +1,19 @@
+.container-fluid {
+    width: 90%;
+    margin: 10px auto;
+}
+
+
+.display-1 {
+    text-align: center;
+}
+
+
+.text-black-50 {
+    color: rgb(228, 19, 141);
+}
+
+.text-bg-color-dark{
+    color: rgb(153, 48, 48);
+    background-color: rgb(173, 152, 237);
+}
