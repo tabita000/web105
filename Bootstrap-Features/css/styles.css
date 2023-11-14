@@ -1,0 +1,67 @@
+h1, h2, h3 {
+    color: rgb(174, 19, 143);
+}
+
+.container {
+    border: 2px salmon;
+}
+
+.container-fluid{
+    width: 90%;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+.row {
+    border: 2px solid green;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+.col-md-4 {
+    border: 2px solid red;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+.col-md-3{
+    border: 2px solid red;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+table{
+    width: 20%;
+    padding: 10px auto;
+}
+
+.thumb{
+    width: 20%;
+    padding: 10px;
+}
+
+.split{
+    clear: both;
+    padding-top: 40px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 20px 20px 20px 40px;
+    padding: 15px 40px;
+    color: rgb(126, 16, 53);
+    background: gray;
+    font-size:x-large;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+}
+
+nav a:hover {
+    background: peru;
+    color: rgb(102, 0, 255);
+    border: 4px solid blue;
+}
