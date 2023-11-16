@@ -1,0 +1,13 @@
+.masthead{
+    background-color: #690707;
+    color: #e9ef95;
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#dq{
+    width: 80%;
+    display:block;
+    margin: 20px auto;
+}
