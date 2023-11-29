@@ -1,5 +1,4 @@
-
-:root{
+:root {
     --grey: rgb(108, 104, 104);
     --light: #BFB8AE;
     --accent-color: #8C7F77;
@@ -9,36 +8,101 @@
     --heading-font: 'Roboto Slab', serif;
     --text-icons: 'Roboto', sans-serif;
     --btn-color: #4a90e2;
-    --text-light: #eaeaea; 
+    --text-light: #eaeaea;
 }
 
-
-h2 {
+body {
+    font-family: var(--text-icons);
+    background-color: var(--primary);
     color: var(--primary);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h2 {
+    color: var(--accent-color);
     font-family: var(--heading-font);
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+body.ai-gallery-page {
+    background-color: #F0F0F0; /* Light gray background color */
+}
+
+.ai-gallery-page .btn-outline-primary {
+    border-color: #4a90e2;
+    color: #0b0c0d;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 5px;
+
+}
+
+.ai-gallery-page .btn-outline-primary:hover {
+    background-color: #4a7db0; /* Blue color on hover */
+    border-color: #646a70;
+    color: #d98a8a; /* White text on hover */
+}
+
+.ai-gallery-page .img-thumbnail {
+    border: 2px solid #bdc3ca; /* Blue border for thumbnails */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
 
 /* Paragraph styles */
 p {
-    color: var(--btn-color);
+    color: purple;
     font-family: var(--text-icons);
-    text-align: justify;
+    text-align: center;
     margin-bottom: 15px;
 }
 
 /* Button styling */
 .btn-primary {
     background-color: var(--btn-color);
-    border-color: var(--btn-color);
+    border-color: var(--darkest);
 }
 
 .btn-primary:hover {
-    background-color: darken(var(--btn-color), 10%);
+    background-color: darken(var(--darkest), 10%);
     border-color: darken(var(--btn-color), 10%);
+    color:var(--accent-color);
 }
+.btn-primary:hover {
+    background-color: #0056b3; /* change to your desired hover background color */
+    color: white; /* change to your desired hover text color */
+}
+
+
+/* Custom button styling */
+.custom-btn {
+    background-color: #4f5459; /* Blue color for the Cats button */
+    border-color: #4a90e2;
+    color: var(--darkest);
+    padding: 10px 50px;
+    font-size: 1rem;
+    border-radius: 5px;
+    
+}
+
+.custom-btn:hover {
+    background-color: darken(#4a90e2, 15%);
+    border-color: var(--darkest);
+    color: var(--darkest);
+}
+
+
+
+
 
 /* Image styling */
 img.rounded {
@@ -85,7 +149,7 @@ img.rounded {
     padding: 20px;
 }
 
-/*For my begal cats page txt*/
+/* For Bengal Cats page text */
 .card {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -94,4 +158,4 @@ img.rounded {
     border-radius: 4px;
     padding: 20px;
     background-color: #cf7d7d;
- }
+}

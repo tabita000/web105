@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feline Friends</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Feline Friends</h2>
+                <p>Click on the button below.</p>
+                <div class="bottom-btn-container text-center">
+                    <button type="button" class="btn btn-primary custom-btn" data-bs-toggle="collapse" data-bs-target="#demo" aria-expanded="true">Cats</button>
+                </div>
+
+                <div id="demo" class="collapse mt-3">
+                    Having cats as pets is an amazing experience filled with joy and fun. Cats are known for their independent
+                    nature, making them easy to care for. They are clean animals, often grooming themselves meticulously.
+                    Cats can be very affectionate, forming strong bonds with their owners. Their playful antics, like chasing
+                    laser pointers or pouncing on toys, bring laughter and entertainment. Cats are also great at comforting
+                    their owners, often curling up in their laps and purring softly, which is known to reduce stress. Their
+                    mysterious and graceful behavior, coupled with their adorable expressions, makes them endlessly fascinating
+                    and cool companions.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <h2>Bengal Cats</h2>
+        <p>Meet the majestic Bengal: where untamed spirit meets purrfect companionship.</p>
+        <a href="pages/bengal1.html" data-bs-toggle="tooltip" title="Learn more about Bengal Cats">
+            <img src="images/images/bengal-6771019_1280.jpg" class="rounded" alt="Bengal Cats" width="304" height="236"></a>
+    </div>
+
+    <div class="container mt-3">
+        <h2>Siamese Cats</h2>
+        <p>Step into the elegant world of Siamese cats, where grace and mystery intertwine in every purr.</p>
+        <a href="pages/siamese2.html" data-bs-toggle="tooltip" title="Learn more about Siamese Cats">
+        <img src="images/images/siamese-2068462_1280.jpg" class="rounded" alt="Siamese Cats" width="304" height="236"></a>
+    </div>
+
+    <div class="container mt-3">
+        <h2>Sphynx Cats</h2>
+        <p>Embrace the unique charm of the Sphynx: a purrfect blend of playful personality and striking elegance.</p>
+        <a href="pages/sphynx3.html" data-bs-toggle="tooltip" title="Learn more about Sphynx Cats">
+            <img src="images/images/2Sphynx.jpg" class="rounded" alt="Sphynx Cats" width="304" height="236"></a>
+    </div>
+
+    <div class="container mt-3">
+        <h2>A.I Gallery</h2>
+        <p>Discover the digital purr-fection: An A.I. Cat Gallery, where feline grace meets artistic innovation.</p>
+        <a href="pages/AI.gallery4.html" data-bs-toggle="tooltip" title="Click here to view my A.I Gallery">
+            <img src="images/images/chair-palaceAI.jpeg" class="rounded" alt="A.I. Gallery" width="304" height="236"></a>
+    </div>
+
+    <!-- Tooltip Initialization Script -->
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+</script>
+</body>
+
+</html>
