@@ -1,10 +1,17 @@
+
+/*Pictures from pixaby and DALL-E
+Fonts: Google Fonts
+colors: Adobe colors
+Text content assistance: ChatGPT*/
+
+
 :root {
     --grey: rgb(108, 104, 104);
-    --light: #BFB8AE;
-    --accent-color: #8C7F77;
-    --primary: #f8f6f4;
-    --darkest: #262221;
-    --background: rgb(108, 104, 104);
+    --light: #F2CA99;
+    --accent-color: #BF946F;
+    --primary:#D97E4A;
+    --darkest: #593027;
+    --background: #A6634B;
     --heading-font: 'Roboto Slab', serif;
     --text-icons: 'Roboto', sans-serif;
     --btn-color: #4a90e2;
@@ -21,18 +28,19 @@ body {
 
 /* Header styles */
 h2 {
-    color: var(--accent-color);
+    color: var(--darkest);
     font-family: var(--heading-font);
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 body.ai-gallery-page {
     background-color: #F0F0F0; /* Light gray background color */
 }
 
 .ai-gallery-page .btn-outline-primary {
-    border-color: #4a90e2;
+    border-color: #3870b1;
     color: #0b0c0d;
     padding: 12px 24px;
     font-size: 1rem;
@@ -47,7 +55,7 @@ body.ai-gallery-page {
 }
 
 .ai-gallery-page .img-thumbnail {
-    border: 2px solid #bdc3ca; /* Blue border for thumbnails */
+    border: 2px solid #c9bdca; /* Blue border for thumbnails */
     border-radius: 8px;
     margin-bottom: 20px;
 }
@@ -56,41 +64,56 @@ body.ai-gallery-page {
     text-align: center;
 }
 
+@keyframes flashing {  
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.flashing-text {
+  animation: flashing 2s infinite;
+  color: #2e108b;
+}
+
+
 
 
 /* Paragraph styles */
 p {
-    color: purple;
+    color: var(--darkest);
     font-family: var(--text-icons);
+    font-weight: bold;
     text-align: center;
     margin-bottom: 15px;
+    font-family: var(--text-icons);
 }
 
 /* Button styling */
 .btn-primary {
-    background-color: var(--btn-color);
+    background-color: var(--light);
     border-color: var(--darkest);
+    font-weight: bolder;
 }
 
 .btn-primary:hover {
     background-color: darken(var(--darkest), 10%);
     border-color: darken(var(--btn-color), 10%);
-    color:var(--accent-color);
+    color:var(--darkest);
 }
 .btn-primary:hover {
-    background-color: #0056b3; /* change to your desired hover background color */
-    color: white; /* change to your desired hover text color */
+    background-color: #799fc7; /* change to your desired hover background color */
+    color: var(--darkest); /* change to your desired hover text color */
 }
 
 
 /* Custom button styling */
 .custom-btn {
-    background-color: #4f5459; /* Blue color for the Cats button */
+    background-color: #6b7075; /* Blue color for the Cats button */
     border-color: #4a90e2;
     color: var(--darkest);
     padding: 10px 50px;
     font-size: 1rem;
-    border-radius: 5px;
+    border-radius: 10px;
+    font-weight: bolder;
     
 }
 
@@ -98,6 +121,16 @@ p {
     background-color: darken(#4a90e2, 15%);
     border-color: var(--darkest);
     color: var(--darkest);
+}
+
+.dropdown-menu {
+    background-color: var(--light);
+    border-color: var(--darkest);
+    color: var(--darkest);
+    padding: 10px 50px;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: bolder;
 }
 
 
@@ -153,9 +186,10 @@ img.rounded {
 .card {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #333;
+    font-weight:500;
+    color: #0d0b0b;
     border: 1px solid #140505;
     border-radius: 4px;
     padding: 20px;
-    background-color: #cf7d7d;
+    background-color: #e2b7b7;
 }
