@@ -3,7 +3,6 @@ body {
             background-color: #070303; 
             margin: 1in;
             padding: 0;
-            color: #f6f1f1;
             line-height: 2;
             font-size: large;
             font-weight: bold;
@@ -15,16 +14,15 @@ body {
         font-weight: 700;
         text-align: center;
        }
+
        p{
         color: #f6f1f1;
         font-weight: bold;
-        background-color: #07030397;
         
        }
 
-
-
-       nav{
+    
+        nav{
        
         text-align: center;
         font-size: 1.5em;
@@ -51,18 +49,8 @@ body {
        }
 
 
-       footer{
-        text-align: left;
-        font-size: 1em;
-        color: #53ed4e;
-        font-weight: bold;
-        
-        
-       }
         
        
-      
-
         img {
             display: block;
             margin: 0 auto; 
@@ -115,8 +103,16 @@ body {
         #cooking{
             background-image: url(../images/cooking.jpeg);
         }
-            /*background-repeat: no-repeat;*\
+            /*background-repeat: no-repeat;*/
         
+
+        body footer p{
+            text-align: center;
+            font-size: 1em;
+            color: #2bda25 !important;
+            font-weight: bold;
+            padding: 10px;
+        }    
 
 
 
