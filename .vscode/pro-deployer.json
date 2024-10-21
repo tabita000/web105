@@ -1,0 +1,41 @@
+{
+	"enableStatusBarItem": true,
+	"enableQuickPick": true,
+	"uploadOnSave": true,
+	"autoDelete": true,
+	"checkGitignore": false,
+	"activeTargets": [
+		"My FTP"
+	],
+	"concurrency": 5,
+	"ignore": [
+		".git/**/*",
+		".vscode/**/*"
+	],
+	"include": [],
+	"targets": [
+		{
+			"name": "My FTP",
+			"type": "ftp",
+			"host": "localhost",
+			"port": 21,
+			"user": "admin",
+			"password": "123456",
+			"dir": "/",
+			"baseDir": "/",
+			"transferDataType": "binary"
+		},
+		{
+			"name": "My SFTP",
+			"type": "sftp",
+			"host": "localhost",
+			"port": 22,
+			"user": "admin",
+			"password": "123456",
+			"dir": "/",
+			"baseDir": "/",
+			"privateKey": null,
+			"passphrase": null
+		}
+	]
+}

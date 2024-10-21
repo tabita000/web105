@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #060958;
+  background-image: url('/Users/tabita/Desktop/web105/midTermProject/media/food.jpeg') ;
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #b74a86;
+  border-radius: 50px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+h1 {
+  color: #040403;
+}
+
+#zipcode {
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #e0e0e0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer p {
+  color: #b74a86;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #f0f0f0; 
+}
