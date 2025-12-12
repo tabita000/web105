@@ -1,0 +1,18 @@
+Feline Friends is a responsive, multi-page website I built as part of my Web 105 coursework. The site showcases different cat breeds, including Bengal, Siamese, and Sphynx, along with an A.I.-generated cat gallery. It is designed to be visually appealing, user-friendly, and fully responsive on both desktop and mobile devices.
+
+Key Features
+	•	Multi-page layout: Separate pages for each cat breed with descriptions, images, and fun facts.
+	•	Interactive elements: Collapsible sections, carousels, tooltips, and dropdown menus for smooth navigation.
+	•	Responsive design: Layout adjusts automatically for desktop, tablet, and mobile screens.
+	•	Aesthetic styling: Custom color palette, Google Fonts, and Adobe-inspired color schemes.
+	•	Dynamic UI components: Bootstrap-powered buttons, cards, and modals enhance user experience.
+	•	Content variety: Includes text descriptions, educational information about cat breeds, and a creative A.I. image gallery.
+
+Technical Highlights
+	•	Built with HTML, CSS, and Bootstrap 5 for styling and responsive layout.
+	•	Implemented collapsible content and carousels using Bootstrap components.
+	•	Used custom CSS variables for colors, fonts, and buttons to maintain a consistent design theme.
+	•	Integrated images from Pixabay and AI-generated images for a visually rich experience.
+
+Purpose & Learning Outcome
+This project allowed me to practice responsive web design, multi-page site structure, and interactive UI elements. It demonstrates my ability to combine design aesthetics with functional navigation and showcases creativity through A.I.-generated content.
